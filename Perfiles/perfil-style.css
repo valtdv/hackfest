@@ -21,32 +21,61 @@ section{
     float: unset;
 }
 
-img, section{
+img, section, div{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+.portada{
+    position: relative;
+}
+
+.foto-candidato{
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    left: 44%;
+    top: 10%;
+}
 
 h1, h2{
     font-family: 'Lexend Deca', sans-serif;
-    padding: 0px 240px;
+    text-align: center;
 }
 
 h1{
-    color: white;
-    background-color: black; 
+    color: black;
     background-size: 50px;
-    display: inline-flex;
-    
+    padding: 80px 240px 0px;
+    font-size: 30px;
 }
 
 h2{
     color: black;
     font-size: 100%;
+    padding: 0px 240px;
 }
 
 p{
     font-family: 'Manjari', sans-serif;
     background-color: #c9bdbd8f;
     text-align: justify;
+    padding: 0px 100px;
+
+}
+
+article{
+    top: 70%;
+}
+
+.separador-a{
+    float: left;
+    width: 240px;
+}
+
+.separador-b{
+    float: right;
+    width: 240px;
 }
