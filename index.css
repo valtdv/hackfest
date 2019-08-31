@@ -29,7 +29,7 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-/*Light blue cover above the slide show*/
+/*Filtrico bacano encima de las fotos del banner*/
 .Banner::after {
   content: '';
   position: absolute;
@@ -101,4 +101,15 @@ body {
   25% { -webkit-transform: translateX( 0 ); transform: translateX( 0 ); }
   28% { -webkit-transform: translateX( -700px ); transform: translateX( -700px ); }
   100% { -webkit-transform: translateX( -700px ); transform: translateX( -700px ); }
+}
+
+/*Configuración del boton de inicio*/
+#boton-de-inicio{
+    position: relative;
+}
+
+#boton-de-inicio.link{
+    position: absolute;
+    bottom: 10px; /*your button position*/
+    right: 10px; /*your button position*/
 }
