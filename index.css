@@ -38,6 +38,8 @@ header ul li{
 .Banner {
   position: relative;
   /*Esto de abajo indica el tamaño de la imagen del banner*/
+  left: 50%;
+  z-index: 1;
   width: 700px;
   height: 400px;
   overflow: hidden;
@@ -122,12 +124,22 @@ header ul li{
 }
 
 /*Configuración del boton de inicio*/
-#boton-de-inicio{
-    position: relative;
+.Banner.boton-de-inicio{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
 }
 
-#boton-de-inicio.link{
-    position: absolute;
-    bottom: 10px; /*your button position*/
-    right: 10px; /*your button position*/
+.Banner.boton-de-inicio:hover{
+    background-color: black;
 }
