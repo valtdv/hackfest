@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    background-image: url("./fondo.jpg");
+}
+
+.contenedor{
+display: flex;
+margin-top: 40vh;
+justify-content: space-between;
+}
+
+.title{
+position:absolute;
+top: 5%;
+left: 35%;
+font-size: 30px;
+}
+
+.boton{
+padding: 15px 32px;
+margin: auto;
+background: rgb(148, 45, 45);
+}
+
+.boton a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
