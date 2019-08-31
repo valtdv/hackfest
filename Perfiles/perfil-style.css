@@ -1,8 +1,8 @@
 html, body{
     margin: 0;
     padding: 0;
-    background-color: rgb(240, 231, 231);
     justify-content: center;
+    background-image: url('/Media/fondo.jpg');
 }
 
 
@@ -27,7 +27,26 @@ img, section{
     margin-right: auto;
 }
 
+h1, h2{
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 0px 240px;
+}
+
 h1{
-    margin-left: auto;
-    margin-right: auto; 
+    color: white;
+    background-color: black; 
+    background-size: 50px;
+    display: inline-flex;
+    
+}
+
+h2{
+    color: black;
+    font-size: 100%;
+}
+
+p{
+    font-family: 'Manjari', sans-serif;
+    background-color: #c9bdbd8f;
+    text-align: justify;
 }
