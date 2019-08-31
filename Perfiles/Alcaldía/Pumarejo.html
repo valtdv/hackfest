@@ -20,12 +20,78 @@
     <section class="contenido">
             <h1><span>Jaime Pumarejo</span></h1>
             <h2>Partido Cambio Radical</h2>
-        <p>Hizo estudios de Administración de Sistemas de Información en la Universidad de
+            <p class="desc">Hizo estudios de Administración de Sistemas de Información en la Universidad de
                 Purdue en Indiana, Estados Unidos. Cuenta con una Maestría en Administración de
                 Empresas con énfasis en Finanzas del Instituto de Empresas de Madrid. Fue parte del
                 Leadership Development Program de la multinacional Ingersoll Rand, donde
                 desempeñó cargos en empresas de Estados Unidos y Singapur. Desde 2008 Jaime
-                Pumarejo ha hecho parte de los gobiernos de Alejandro Char y Elsa Noguera.</p>
+                Pumarejo ha hecho parte de los gobiernos de Alejandro Char y Elsa Noguera.
+            </p>
+            <h2>¿Cuales son sus propuestas?</h2>
+                <button class="accordion">Seguridad</button>
+                <div class="panel">
+                <p>
+                   Implementar un programa de prevención y resocialización enfocado en la atención de jóvenes en conflicto. Crear un servicio de mediación de conflictos y atención al ciudadano para que las comunidades para la resolución pacífica y eficaz sus problemas.
+                </p>
+                <p>
+                    Facilitar la denuncia ciudadana y la judicialización de delincuentes a través de nuevos canales con la administración para la radicación y trámite de sus denuncias.
+                </p>
+                </div>
+                <!--Acordeon y propuestas-->
+                <button class="accordion">Movilidad</button>
+                <div class="panel">
+                <p>
+                  Implementar el proceso de modernización y reorganización del sistema de transporte público colectivo de Barranquilla y su Área Metropolitana con Transmetro en un solo sistema integrado (SITP), con el cual una persona se desplazará con una sola tarjeta y el costo del transbordo será a un bajo precio.
+                </p>
+                <p>
+                    Organizar la infraestructura vial y mobiliario urbano para el transporte público, adecuar carriles Solo Bus preferenciales para la rápida y segura movilización de los buses.  
+                    Barranquilla tendrá el primer sistema de transporte público fluvial del país que conectará los distintos barrios del sur de la ciudad, integrando al sistema los primeros buses de pasajeros por el Río Magdalena (Río Bus) con varias paradas desde el sur del Atlántico hasta Las Flores.                            
+               </p>
+                </div>
+                
+                <button class="accordion">Educación</button>
+                <div class="panel">
+                  <p>Lograr mejor cobertura en la educación superior.</p>
+                  <p>Hacer una alianza con la Universidad del Sur del Atlántico y con las 12 sedes del Sena que tienen cupo para 10 mil jóvenes al año y la sede del Itsa en Barranquilla con una capacidad para 7 mil jóvenes.</p>
+                  <p>Impulsar el bilingüismo en todos los colegios oficiales.</p>
+                </div>
+                
+                <button class="accordion">Salud</button>
+                <div class="panel">
+                  <p>Continuar con el programa de Caminantes por la salud y con el sistema de salud público distrital de Pasos y Caminos en los barrios como puntos de atención médica.</p>
+                </div>
+
+                <button class="accordion">Servicios públicos</button>
+                <div class="panel">
+                  <p>Acabar con la problemática del servicio de energía reemplazando a Electricaribe por un nuevo operador</p>
+                  <p>Crear una Unidad de Servicios Públicos para hacer seguimiento y planeación a estas empresas con el fin de “defender a los barranquilleros ante los abusos”.</p>
+                </div>
+                <button class="accordion">Vivienda</button>
+                <div class="panel">
+                  <p>Mejorar la oferta en vivienda de interés público, prioritaria y social que actualmente los ciudadanos encuentran fuera del perímetro urbano. </p>
+                  <p>Densificar la ciudad comprando terreno para asegurar viviendas de calidad en los barrios de Barranquilla.</p>
+                  <p>Crear una empresa propia de generación eléctrica con base en energía solar.</p>
+                </div>
+                <h2>¿Y cuáles son TUS propuestas?</h2>
+                <br>
+                <br>
+                
+                <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+                
+                for (i = 0; i < acc.length; i++) {
+                  acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                      panel.style.display = "none";
+                    } else {
+                      panel.style.display = "block";
+                    }
+                  });
+                }
+                </script>
     </section>
 </body>
 </html>

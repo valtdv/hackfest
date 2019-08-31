@@ -30,6 +30,67 @@
             Villa Blanca y San Nicolás.</p>
             <div class="separador-b"></div>
         </article>
+        <h2>¿Cuales son sus propuestas?</h2>
+        <!--Acordeon y propuestas-->
+                <button class="accordion">Seguridad</button>
+                <div class="panel">
+                <p>
+                    Dotar de ayudas tecnológicas y de inteligencia  a las autoridades para detectar anticipadamente y combatir las conductas delictivas. Por ejemplo, más cámaras para la vigilancia y menos para las fotomultas.
+                </p>
+                <p>
+                    Reactivar el vecinalismo  y nexos comunitarios para generar una red cívica de apoyo para la seguridad y convivencia. De esta manera, se podrá fortalecer y estimular la justicia comunitaria.
+                </p>Facilitar la denuncia ciudadana y la judicialización de delincuentes a través de nuevos canales con la administración para la radicación y trámite de sus denuncias.
+                <p>Desarrollar un programa de Seguridad Social Integral y Hambre Cero.</p>    
+            </div>
+
+                <button class="accordion">Movilidad</button>
+                <div class="panel">
+                <p>
+                    “Crearé el Observatorio de la Movilidad con todos los actores de la  movilidad, para debatir y adoptar decisiones de enorme importancia referentes a la movilidad”.
+                </p>
+                <p>
+                    Dar una oportunidad al infractor, y otorgar perdón, por una sola vez, de comparendos y multas a quienes demuestren que su subsistencia depende de su vehículo y puedan compensar la infracción con formación académica y/o trabajo social.                             
+               </p>
+                </div>
+                
+                <button class="accordion">Educación</button>
+                <div class="panel">
+                  <p>El candidato no se ha pronunciado al respecto.</p>
+                </div>
+                
+                <button class="accordion">Salud</button>
+                <div class="panel">
+                  <p>El candidato no se ha pronunciado al respecto.</p>
+                </div>
+
+                <button class="accordion">Servicios públicos</button>
+                <div class="panel">
+                  <p>El candidato no se ha pronunciado al respecto.</p>
+                </div>
+                <button class="accordion">Vivienda</button>
+                <div class="panel">
+                  <p>El candidato no se ha pronunciado al respecto.</p>
+                </div>
+                <h2>¿Y cuáles son TUS propuestas?</h2>
+                <br>
+                <br>
+                
+                <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+                
+                for (i = 0; i < acc.length; i++) {
+                  acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                      panel.style.display = "none";
+                    } else {
+                      panel.style.display = "block";
+                    }
+                  });
+                }
+                </script>
     </section>
 </body>
 </html>
