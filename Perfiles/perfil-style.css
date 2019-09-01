@@ -67,7 +67,7 @@ h2 {
 
 p {
     font-family: 'Manjari', sans-serif;
-    text-align: justify;
+    text-align: left;
 }
 
 .desc {
@@ -97,7 +97,6 @@ article {
     margin-right: auto;
     background-color: rgb(170, 16, 16);
     color: white;
-    text-align: center;
     font-family: 'Lexend Deca', sans-serif;
     cursor: pointer;
     padding: 18px;
@@ -113,6 +112,8 @@ article {
 .active,
 .accordion:hover {
     background-color: rgb(128, 9, 9);
+    width: 73%;
+    font-size: 17px;
 }
 
 .panel {
@@ -121,4 +122,30 @@ article {
     background-color: white;
     overflow: hidden;
     width: 60%;
+}
+
+/*Proponer propuestas*/
+#inp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 50px;
+    border: 5em black;
+    padding: 2px 5px;
+    font-family: 'Manjari', sans-serif;
+}
+
+#env {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(170, 16, 16);
+    color: white;
+    text-align: center;
+    border: 5px white;
+    font-family: 'Lexend Deca', sans-serif;
+
 }
