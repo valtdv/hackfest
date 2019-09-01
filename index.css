@@ -1,42 +1,47 @@
 *,
 *::before,
-*::after { box-sizing: border-box; }
+*::after {
+  box-sizing: border-box;
+}
 
 html,
 body {
   display: flex;
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
-  font-family: 'Roboto Condensed', sans-serif;
+  background-image: url("/Media/fondo.jpg");
+  font-family: "Roboto Condensed", sans-serif;
 }
 header .contenedor {
   display: flex;
-  width:  100vw;
+  width: 100vw;
   justify-content: space-between;
-  background:  rgb(168, 128, 243);
+  background-color: rgba(255, 0, 0, 0.5);
 }
 
+img {
+  margin-left: 10vh;
+}
 
 header p {
   color: white;
   margin-left: 15vh;
 }
 
-header a{
+header a {
   text-decoration: none;
   color: white;
-  }
+}
 
-header ul li{
+header ul li {
   list-style-type: none;
   margin-right: 20px;
   margin-left: 20px;
-  }
-  
-  header ul{
-    display: flex;
-    margin-right: 10vh; 
+}
+
+header ul {
+  display: flex;
+  margin-right: 10vh;
 }
 
 .Banner {
@@ -46,15 +51,17 @@ header ul li{
   width: 700px;
   height: 400px;
   overflow: hidden;
-  margin-left: 30vh;
-  margin-top: 15vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20vh;
+  display: block;
   border-radius: 5px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 /*Filtrico bacano encima de las fotos del banner*/
 .Banner::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -64,7 +71,7 @@ header ul li{
   width: 100%;
   height: 100%;
 
-  background-color: rgba(140, 22, 95, 0.2);
+  background-color: rgba(92, 86, 89, 0.2);
 }
 
 .ban {
@@ -77,72 +84,93 @@ header ul li{
   align-items: center;
   width: 100%;
   height: 100%;
-  
-  -webkit-transform: translateX( 700px );
-  
-          transform: translateX( 700px );
-  background-image: url( https://github.com/Flat-Pixels/assets_hosting/blob/master/picture_slides/1.jpg?raw=true );
-  
-  -webkit-animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
-  
-          animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
-}
 
+  -webkit-transform: translateX(700px);
+
+  transform: translateX(700px);
+  background-image: url("/Media/b1.jpg");
+
+  -webkit-animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
+
+  animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
+}
 
 .ban.banner-dos {
   z-index: 6;
-  background-image: url( https://github.com/Flat-Pixels/assets_hosting/blob/master/picture_slides/2.jpg?raw=true );
+  background-image: url("/Media/b2.jpg");
   -webkit-animation-delay: 7s;
-          animation-delay: 7s;
+  animation-delay: 7s;
 }
 
 .ban.banner-tres {
   z-index: 5;
-  background-image: url( https://github.com/Flat-Pixels/assets_hosting/blob/master/picture_slides/3.jpg?raw=true );
+  background-image: url("/Media/b3.jpg");
   -webkit-animation-delay: 14s;
-          animation-delay: 14s;
+  animation-delay: 14s;
 }
 
 .ban.banner-cuatro {
   z-index: 4;
-  background-image: url( https://github.com/Flat-Pixels/assets_hosting/blob/master/picture_slides/4.jpg?raw=true );
+  background-image: url("/Media/b4.jpg");
   -webkit-animation-delay: 21s;
-          animation-delay: 21s;
+  animation-delay: 21s;
 }
-
 
 @-webkit-keyframes opaqTransition {
-  3% { -webkit-transform: translateX( 0 ); transform: translateX( 0 ); }
-  25% { -webkit-transform: translateX( 0 ); transform: translateX( 0 ); }
-  28% { -webkit-transform: translateX( -700px ); transform: translateX( -700px ); }
-  100% { -webkit-transform: translateX( -700px ); transform: translateX( -700px ); }
+  3% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  25% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  28% {
+    -webkit-transform: translateX(-700px);
+    transform: translateX(-700px);
+  }
+  100% {
+    -webkit-transform: translateX(-700px);
+    transform: translateX(-700px);
+  }
 }
 
-
 @keyframes opaqTransition {
-  3% { -webkit-transform: translateX( 0 ); transform: translateX( 0 ); }
-  25% { -webkit-transform: translateX( 0 ); transform: translateX( 0 ); }
-  28% { -webkit-transform: translateX( -700px ); transform: translateX( -700px ); }
-  100% { -webkit-transform: translateX( -700px ); transform: translateX( -700px ); }
+  3% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  25% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  28% {
+    -webkit-transform: translateX(-700px);
+    transform: translateX(-700px);
+  }
+  100% {
+    -webkit-transform: translateX(-700px);
+    transform: translateX(-700px);
+  }
 }
 
 /*Configuración del boton de inicio*/
-.Banner.boton-de-inicio{
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
+.Banner.boton-de-inicio {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
 }
 
-.Banner.boton-de-inicio:hover{
-    background-color: black;
+.Banner.boton-de-inicio:hover {
+  background-color: black;
 }
