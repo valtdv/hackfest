@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: 'Lexend Deca', sans-serif;
-    background-image: url("./fondo.jpg");
+    background-image: url("./Media/fondo.jpg");
 }
 
 .contenedor{
@@ -10,8 +10,8 @@ margin-top: 40vh;
 justify-content: space-between;
 }
 
-.title{
-position:absolute;
+.titulo{
+position: absolute;
 top: 5%;
 left: 35%;
 font-size: 30px;
