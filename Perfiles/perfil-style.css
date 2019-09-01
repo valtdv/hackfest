@@ -1,151 +1,153 @@
 html,
 body {
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    background-image: url('/Media/fondo.jpg');
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  background-image: url("/Media/fondo.jpg");
 }
 
-
 header {
-    max-width: 100%;
-    max-height: 50em;
-    position: relative;
-    justify-content: center;
+  max-width: 100%;
+  max-height: 50em;
+  position: relative;
+  justify-content: center;
 }
 
 section {
-    margin-top: 10px;
-    max-width: 720px;
-    background-color: white;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    float: unset;
+  margin-top: 10px;
+  max-width: 720px;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  float: unset;
 }
 
 img,
 section,
 div {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .portada {
-    position: relative;
+  position: relative;
 }
 
 .foto-candidato {
-    border-radius: 50%;
-    border: 5px gray;
+  border-radius: 50%;
+  border: 5px gray;
 
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    left: 44%;
-    top: 10%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  left: 44%;
+  top: 10%;
 }
 
 h1,
 h2 {
-    font-family: 'Lexend Deca', sans-serif;
-    text-align: center;
+  font-family: "Lexend Deca", sans-serif;
+  text-align: center;
 }
 
 h1 {
-    color: black;
-    background-size: 50px;
-    padding: 80px 240px 0px;
-    font-size: 30px;
+  color: black;
+  background-size: 50px;
+  padding: 80px 240px 0px;
+  font-size: 30px;
 }
 
 h2 {
-    color: black;
-    font-size: 100%;
-    padding: 0px 240px;
+  color: black;
+  font-size: 100%;
+  padding: 0px 240px;
 }
 
 p {
-    font-family: 'Manjari', sans-serif;
-    text-align: left;
+  font-family: "Manjari", sans-serif;
+  text-align: left;
 }
 
 .desc {
-    background-color: #c9bdbd8f;
-    padding: 0px 100px;
+  background-color: #c9bdbd8f;
+  padding: 0px 100px;
 }
 
 article {
-    top: 70%;
+  top: 70%;
 }
 
 .separador-a {
-    float: left;
-    width: 240px;
+  float: left;
+  width: 240px;
 }
 
 .separador-b {
-    float: right;
-    width: 240px;
+  float: right;
+  width: 240px;
 }
 
 /*Acordeon y propuestas*/
 .accordion {
-    padding-top: 30%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(170, 16, 16);
-    color: white;
-    font-family: 'Lexend Deca', sans-serif;
-    cursor: pointer;
-    padding: 18px;
-    width: 70%;
-    border: none;
-    text-align: center;
-    outline: none;
-    font-size: 15px;
-    transition: 0.5s;
-    border: 5px white;
+  padding-top: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(170, 16, 16);
+  color: white;
+  font-family: "Lexend Deca", sans-serif;
+  cursor: pointer;
+  padding: 18px;
+  width: 70%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.5s;
+  border: 5px white;
 }
 
 .active,
 .accordion:hover {
-    background-color: rgb(128, 9, 9);
-    width: 73%;
-    font-size: 17px;
+  background-color: rgb(128, 9, 9);
+  width: 73%;
+  font-size: 17px;
 }
 
 .panel {
-    padding: 0 18px;
-    display: none;
-    background-color: white;
-    overflow: hidden;
-    width: 60%;
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  width: 60%;
 }
 
 /*Proponer propuestas*/
 #inp {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    height: 50px;
-    border: 5em black;
-    padding: 2px 5px;
-    font-family: 'Manjari', sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 50px;
+  border: 5em black;
+  padding: 2px 5px;
+  font-family: "Manjari", sans-serif;
 }
 
 #env {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
-    height: 30px;
-    background-color: rgb(170, 16, 16);
-    color: white;
-    text-align: center;
-    border: 5px white;
-    font-family: 'Lexend Deca', sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(170, 16, 16);
+  color: white;
+  text-align: center;
+  border: 5px white;
+  font-family: "Lexend Deca", sans-serif;
+}
 
+.fab {
+  color: black;
 }

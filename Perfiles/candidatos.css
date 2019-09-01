@@ -1,32 +1,43 @@
 html,
 body {
-    margin: 0;
-    padding: 0;
-    background-image: url('/Media/fondo.jpg');
+  margin: 0;
+  padding: 0;
+  background-image: url("/Media/fondo.jpg");
 }
 
 section {
-    background-color: white;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-height: fit-content;
-    max-width: 1100px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: fit-content;
+  max-width: 1100px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
-    font-size: 50px;
-    font-family: 'Lexend Deca', sans-serif;
-    text-align: center;
+  font-size: 50px;
+  font-family: "Lexend Deca", sans-serif;
+  text-align: center;
 }
 
 article {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  left: 50%;
 }
 
-img {
-    scroll-padding-left: 20px;
+.gov {
+  padding-left: 15px;
+}
+
+.alc {
+  padding-left: 60px;
+}
+
+p {
+  padding-left: 60px;
+  font-family: "Manjari", sans-serif;
+  text-align: left;
 }
