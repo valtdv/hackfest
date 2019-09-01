@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Keywords"
+      content="política, elecciones, votaciones, alcaldía, Rodney Castro"
+    />
+    <meta http-equiv="”Content-Language”" content="”es”" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <title>¿Qué me ofreces? | Jaime Pumarejo</title>
+    <link rel="stylesheet" href="/Perfiles/perfil-style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lexend+Deca|Manjari&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="/Media/pumarejo.jpg" class="portada" />
+    </header>
+    <div>
+      <img src="" class="foto-candidato" />
+    </div>
+    <section class="contenido">
+      <h1><span>Rodney Castro</span></h1>
+      <h2>Colombia Renaciente
+        </h2>
+      <!--Descripción del candidato-->
+      <p class="desc">
+      
+      </p>
+      <h2>¿Cuales son sus propuestas?</h2>
+      <!--Acordeon y propuestas-->
+      <button class="accordion">Agroindustria</button>
+      <div class="panel">
+        <p>
+            Implementar el programa AgroAtlántico, que consiste en constituir empresas de economía mixta con la participación de universidades, empresarios, campesinos y la Administración departamental, con la finalidad de darles valor agregado a los productos locales, tecnificar los procesos y apalancar la comercialización del resultado de las cosechas y los derivados de las mismas.
+        </p>
+        <p>
+            Crear el Centro Pesquero Marítimo del Atlántico, con el cual desarrollaremos la pesca industrial en el mar.
+        </p>
+      </div>
+
+      <br/>
+
+      <button class="accordion">Salud</button>
+      <div class="panel">
+        <p>
+            Revestir a la red hospitalaria de idoneidad gerencial para ofrecer, con altos estándares de calidad, una amplia oferta de servicios y una eficiente gestión de cobro.
+
+        </p>
+        <p>
+            Rescatar el Cari Mental, convertirlo en cabeza de la red mental de toda la Región Caribe colombiana y responder a la Política Integral para la  Prevención y Atención del Consumo de Sustancias Psicoactivas.
+        </p>
+      </div>
+
+      <br/>
+
+      <button class="accordion">Educación</button>
+      <div class="panel">
+        <p>Reformas los planes educativos e insertar el “chip” del bilingüismo, liderazgo, emprendimiento y conocimiento de la tecnología. Tomar a la educación y preparar a los jóvenes para enfrentar el mundo globalizado.
+          </p>
+        <p>
+         
+
+        </p>
+        <p>Impulsar el bilingüismo en todos los colegios oficiales.</p>
+      </div>
+
+      <br />
+
+      <button class="accordion">Servicios Públicos
+        </button>
+      <div class="panel">
+        <p>
+            Trabajar para cumplir con las necesidades básicas en el territorio del Atlántico, en específico en el acceso al agua potable en los corregimientos.
+
+
+        </p>
+      </div>
+
+      <br />
+
+      <button class="accordion">Servicios públicos</button>
+      <div class="panel">
+        <p>
+         
+
+        </p>
+        <p>
+          
+
+        </p>
+      </div>
+
+      <br />
+
+
+      <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+      </script>
+    </section>
+  </body>
+</html>
