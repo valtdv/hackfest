@@ -13,9 +13,12 @@ h1{
     margin-bottom: 10vh;
     
 }
+body{
+  background-image: url("/Media/fondo.jpg");
+}
 
 .bg {
-  background: white;
+  background: transparent;
   width: 100vw;
   height: 100vh;
 }
