@@ -15,7 +15,7 @@ h1{
     
 }
 body{
-  background-image: url("/Media/fondo.jpg");
+  background-image: url("../Media/fondo.jpg");
 }
 
 .bg {

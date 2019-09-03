@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     justify-content: center;
-    background-image: url('/Media/fondo.jpg');
+    background-image: url('../Media/fondo.jpg');
 }
 
 
