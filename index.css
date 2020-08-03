@@ -9,7 +9,7 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-  background-image: url("/Media/fondo.jpg");
+  background-image: url("Media/fondo.jpg");
   font-family: "Roboto Condensed", sans-serif;
 }
 header .contenedor {
@@ -88,7 +88,7 @@ header ul {
   -webkit-transform: translateX(700px);
 
   transform: translateX(700px);
-  background-image: url("/Media/b1.jpg");
+  background-image: url("Media/b1.jpg");
 
   -webkit-animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
 
@@ -97,21 +97,21 @@ header ul {
 
 .ban.banner-dos {
   z-index: 6;
-  background-image: url("/Media/b2.jpg");
+  background-image: url("Media/b2.jpg");
   -webkit-animation-delay: 7s;
   animation-delay: 7s;
 }
 
 .ban.banner-tres {
   z-index: 5;
-  background-image: url("/Media/b3.jpg");
+  background-image: url("Media/b3.jpg");
   -webkit-animation-delay: 14s;
   animation-delay: 14s;
 }
 
 .ban.banner-cuatro {
   z-index: 4;
-  background-image: url("/Media/b4.jpg");
+  background-image: url("Media/b4.jpg");
   -webkit-animation-delay: 21s;
   animation-delay: 21s;
 }
